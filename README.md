@@ -33,7 +33,7 @@ Below is the workflow for how the lessons will be conducted. Please follow close
 ![lesson-workflow](./images/lesson-workflow.gif)
 
 ### 1. Clone Repository & User Repository 
-- First of all, clone this repository. It should be name `learnx-python-club-2025-26`.
+- First of all, clone this repository. It should be named `learnx-python-club-2025-26`.
 
 ```bash
 git clone https://github.com/QMathsdude/learnx-python-club-2025-26.git
@@ -103,6 +103,9 @@ git push                    # push to remote repository
 
 ## ⚖️ License
 
-This material is shared under [MIT License](LICENSE) and XXX for educational purposes.
+The content of this project is dual-licensed.
+
+*   **Code:** All Python scripts and code snippets are licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+*   **Educational Materials:** All other content, including PDF slides and recorded videos, are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. See the [LICENSE.cc-by](LICENSE.cc-by) file for details.
 
 ---
