@@ -1,10 +1,10 @@
-# 🐍 LearnX+ Python Club 2025/26
+# 🐍 LearnX+ Python Studio 2025/26
 
-[LOGO HERE]
+![logo](./images/logo.png)
 
 ## 🚀 About
 
-This repository contains teaching materials for our weekly Python club meetings. We focus on building strong foundations in scientific computing libraries, suitable for members with beginner to intermediate Python experience.
+This repository contains teaching materials for our weekly Python meetings. We focus on building strong foundations in scientific computing libraries, suitable for members with beginner to intermediate Python experience.
 
 ## 🤖 Structure
 
@@ -33,73 +33,84 @@ Below is the workflow for how the lessons will be conducted. Please follow close
 ![lesson-workflow](./images/lesson-workflow.gif)
 
 ### 1. Clone Repository & User Repository 
-- First of all, clone this repository. It should be named `learnx-python-club-2025-26`.
+- First of all, clone this repository. It will be named `learnx-python-studio-2025-26`.
 
 ```bash
-git clone https://github.com/QMathsdude/learnx-python-club-2025-26.git
+git clone https://github.com/QMathsdude/learnx-python-studio-2025-26.git
 ```
 
-- Next, create **new separate directory**. This will be linked to your **own remote repository**. 
+- Next, create **new separate directory** and change into it.
 
 ```bash
-mkdir DUPLICATE_DIR
-
-git init # initialize git in directory
-git remote add origin https://github.com/username/repo.git # link to your remote repository
+mkdir DUPLICATE_DIR  # make directory
+cd DUPLICATE_DIR     # change directory
 ```
 
-### 2. Create & Update Conda Environment
-
-- Change directory into `learnx-python-club-2025-26`.
+- Initialise Git locally in `DUPLICATE_DIR`. Then, link it to your **own remote repository**. 
 ```bash
-cd learnx-python-club-2025-26
+git init                                                    # initialize git in directory
+git remote add origin https://github.com/username/repo.git  # link to your remote repository
 ```
 
-- If you do not have a Conda environment yet, create one using `environment.yml` (ensure you are within the same directory):
+### 2. Pull New Lessons
 
+- Change directory into `learnx-python-studio-2025-26`.
 ```bash
-conda env create -f environment.yml
+cd learnx-python-studio-2025-26
 ```
-
-- Update Conda environment using `environment.yml` (ensure you are BOTH in the same directory, and the Conda environment is currently active within your terminal):
-
-```bash
-conda env update -f environment.yml --prune
-```
-
-### 3. Pull New Lessons
 
 - Pull to get the latest week's lesson:
 ```bash
 git fetch origin main
 git merge origin/main 
+
+ls  # list directory content
 ```
 
-- Check that the new learning material is indeed there.
+### 3. Copy Lessons Locally
 
-### 4. Copy Locally & Push to Your Own Repository
-
-- Copy the latest lesson into a separate directory (Bash, ZSH, Powershell):
+- Copy the latest lesson into your personal directory `DUPLICATE_DIR` (Bash, ZSH, Powershell):
 ```bash
-cp -R ~/PATH/learnx-python-club-2025-26/Week_0X_TOPIC/ ~/PATH/DUPLICATE_DIR/
+cp -R ~/PATH/learnx-python-studio-2025-26/Week_0X_TOPIC/ ~/PATH/DUPLICATE_DIR/
 ```
 
+### 4. Push to Your Own Repository
 - After completing the lesson in the seperate directory, push to your own repository:
 ```bash
-git status                  # check file status
-git add .                   # add all files to staging area
-git commit "Description"    # commit files in staging area
+git status                # check file status
+git add .                 # add all files to staging area
+git commit "Description"  # commit files in staging area
 git status
-git push                    # push to remote repository
+git push                  # push to remote repository
+```
+
+### 5. Create & Update Conda Environment
+
+- If you do not have a Conda environment yet, create one using `environment.yml` (ensure you are within the same directory as the YML file):
+
+```bash
+conda env create -f environment.yml
+```
+
+- Update Conda environment using `environment.yml` (ensure you are BOTH in the same directory and the Conda environment is currently active within your terminal):
+
+```bash
+conda env update -f environment.yml --prune
 ```
 
 
 ## 📍 Resources
 
+- [Conda Documentation](https://docs.conda.io/en/latest/)
+- [Jupyter Documentation](https://docs.jupyter.org/en/latest/)
+- [ProGit Textbook](https://git-scm.com/book/en/v2)
 - [NumPy Documentation](https://numpy.org/doc/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
 - [SciPy Documentation](https://docs.scipy.org/doc/scipy/)
-- [Python for Data Analysis](https://wesmckinney.com/book/) by Wes McKinney
-- [Scipy Lecture Notes](https://scipy-lectures.org/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Pillow Documentation](https://pillow.readthedocs.io/en/stable/)
+- [Learning Scientific Programming with Python (Christian Hill)](https://scipython.com/)
+
 
 ## ⚖️ License
 
