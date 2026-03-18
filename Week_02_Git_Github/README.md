@@ -17,6 +17,7 @@ Please take out a laptop and **follow along the video tutorials! 💻**
 ## 👾 Prerequisite : Creating Your Github Account
 
 [![setup-github](../images/setup-github.jpg)](https://youtu.be/bUErBGvVolM?si=NE-GubXlo2vDxsYV)
+
 [Watch the video here](https://youtu.be/bUErBGvVolM?si=NE-GubXlo2vDxsYV)
 
 ### Summary
