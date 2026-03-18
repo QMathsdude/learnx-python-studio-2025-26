@@ -59,3 +59,8 @@ For this lesson, **please follow along**. By the end of the video, you should ha
 - Familiar with how to use Jupyter.
 - Familiar with shortcuts on both IDEs.
 - Understood how to switch between conda environments for Jupyter kernel.
+
+### Additional Material
+Some useful website links to learn for Jupyter markdown :
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
+- [LaTeX Tutorial](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
