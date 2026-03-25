@@ -16,9 +16,9 @@ Please take out a laptop and **follow along the video tutorials! 💻**
 
 ## 👾 Prerequisite : Creating Your Github Account
 
-[![setup-github](../images/setup-github.jpg)](https://youtu.be/bUErBGvVolM?si=NE-GubXlo2vDxsYV)
+[![setup-github](../images/setup-github.jpg)](https://youtu.be/RnWDKWmaQ8s?si=WitpH2-xB186JdSP)
 
-[Watch the video here](https://youtu.be/bUErBGvVolM?si=NE-GubXlo2vDxsYV)
+[Watch the video here](https://youtu.be/RnWDKWmaQ8s?si=WitpH2-xB186JdSP)
 
 ### Summary
 
@@ -35,8 +35,8 @@ Github offers [**student package**](https://education.github.com/pack) that incl
 
 ## ⚙️ Lesson 2 : Git & Github
 
-[![Lesson-2](../images/Lesson-2.png)](https://youtu.be/RnWDKWmaQ8s?si=2dc5dsKY4GjW1ZoR)
-[Watch the video here](https://youtu.be/RnWDKWmaQ8s?si=2dc5dsKY4GjW1ZoR)
+[![Lesson-2](../images/Lesson-2.png)](https://youtu.be/bUErBGvVolM?si=rhl_rCu_krLGBSWn)
+[Watch the video here](https://youtu.be/bUErBGvVolM?si=rhl_rCu_krLGBSWn)
 
 ### Summary
 
