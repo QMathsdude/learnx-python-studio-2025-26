@@ -1,0 +1,4 @@
+name,age,height,employed
+alice,35,1.64,true
+bob,42,1.75,true
+charlie,68,1.60,false
